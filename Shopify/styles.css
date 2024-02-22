@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .messages-tag,
+  .qubriux {
+    margin: 5px;
+  }
+  
+  .qubriux {
+    color: black;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+  
+  .right-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .options {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Header styles */
+  .main-header {
+    background-color: #4caf50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-header {
+    font-size: 1.5em;
+  }
+  
+  .center-section {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    margin-right: 20px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contact-button {
+    background-color: #fff;
+    color: #4caf50;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Homepage styles */
+  .main-content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .headline {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .human-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .popup-messages {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .popup-message {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .request-demo {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .request-demo:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Next Page styles */
+  .next-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .page-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .next-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .next-page-section {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* POS Integration Section */
+  .pos-section {
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  .pos-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .pos-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  /* Simplify Customer Engagement Section */
+  .customer-engagement-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-engagement-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .customer-engagement-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .customer-engagement-card {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .customer-engagement-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .customer-engagement-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .customer-engagement-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .customer-engagement-button:hover {
+    background-color: #0056b3;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
